@@ -2,11 +2,7 @@
   Class Stack.
 
   Nomes:
-  Mariela Pontes Cordeiro,
-  Maria Eduarda Menezes de Lemos,
-  Bruno Brandão,
-  Gustavo Fernando Burchardt,
-  Eduardo Ribeiro Barcellos
+  Mariela Pontes Cordeiro
 */
 
 class {:autocontracts}  Stack
@@ -259,4 +255,5 @@ method TestUnlimitedSize()
     stack.Pop();
 
     assert stack.IsEmpty() == true;
+
 }
